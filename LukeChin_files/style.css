@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    position: relative;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.8px;
+    word-wrap: break-word;
+    font-weight: 400;
+    scroll-snap-type: y proximity;
+}
+
+.child {
+  scroll-snap-align: start;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.row{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.fill {
+    min-height: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#welcome-fill {
+    background: linear-gradient(to bottom right, #287afc, pink);
+    background-color: #287afc;
+}
+
+#welcome {
+    color: white;
+}
+
+  .navbar-custom {
+    background-color: #287afc;
+  }
+
+  .navbar-custom-text {
+    color: white !important;
+  }
+
+  .technical-header {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background: url(media/grandMA.png);
+    color: white;
+    /* Set a specific height */
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+  }
+
+  .technical-title {
+    margin: auto; /* Important */
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+
+  .content-custom {
+      padding: 10px;
+  }
+
+  .portfolio-item {
+    background-color: transparent;
+    padding-right: 0;
+    padding-left:0;
+}
+
+  .portfolio-image {
+    width: 100%;
+    position: relative;
+    border-radius: 0px;
+
+  }
+
+  .centre-text {
+    text-align: center;
+  }
+
+  .styled-image {
+    width: 90%;
+    border-radius: 7px;
+    margin: 10px;
+  }
+
+  
+#sticky-sidebar {
+  background: linear-gradient(to bottom right, #287afc, pink);
+  color: white;
+  padding-left: 40px;
+}
+
+.sticky-top {
+  height: 100vh;
+}
+
+.sidebar-subcontainer {
+  display: flex;
+  align-items: center;
+  min-height: 75vh;
+  position: relative;
+}
+.sidebar-links {
+  position: absolute;
+}
+
+.link {
+    padding-bottom: 20px;
+}
+
+.copyright {
+  color: white;
+  position: relative;
+  bottom: 0;
+}
+
+.content-div {
+  min-height: 100%; 
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+}
+
+.headshot {
+  height: 400px;
+  width: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.image-container {
+  position: relative;
+  padding-left: 0px;
+}
+
+.wide {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.grey-a {
+  background-color: #ffffff;
+}
+
+.grey-b {
+  background-color: #f5f5f5;
+}
+
+.portfolio-container {
+  height: 80%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.video-container {
+  position: relative;
+  padding-bottom: 50.625%; /* 16:9 */
+  height: 0;
+}
+
+.yt-embed {
+  width: 90%; 
+  height: 100%;
+  position:absolute;
+}
+
+.fixed-image {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.link a, .link a:hover, .title a, .title a:hover {
+  color: white;
+  text-decoration: none; /* no underline */
+}
+
+.footer {
+  color: grey;
+  text-align: center;
+}
+
+.btm-sidebar {
+  vertical-align: bottom;
+}
+
+.styled-field {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 7px;
+  width: 80%
+}
+
+.submit-btn {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #287afc;
+  color: white;
+}
