@@ -67,3 +67,7 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+# DNS information
+/default_bluehost_txt.txt
+/Screenshot 2020-11-20 140336.jpg
